@@ -5,4 +5,18 @@
 Meaner, tougher, faster and more evolved version of [ISIS](https://github.com/DanielGorlo/ISIS.js)
 Now includes testing as well.
 
-This version also injects Islamic motivation into the console, removes the \<head\> tag, and warns America.
+This version also injects Islamic motivation into the console, removes the `<head>` tag, and warns America.
+
+## Usage
+
+Insert script in your HTML:
+
+```html
+<script src="ISIS2.js"></script>
+```
+
+## Contributors
+
+- [DanielGorlo (Original creator)](https://github.com/DanielGorlo)
+- [zivc](https://github.com/zivc)
+- [Radai Rosenblatt](https://github.com/radai-rosenblatt)
