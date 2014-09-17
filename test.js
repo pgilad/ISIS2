@@ -6,20 +6,26 @@ var serveStatic = require('serve-static');
 var Browser = require('zombie');
 var assert = require('assert');
 
-describe('contact page', function() {
-    before(function() {
-        connect().use(serveStatic(__dirname)).listen(8080);
-    });
-    it('description', function(done) {
-        // Load the page from localhost
-        browser = new Browser();
-        browser.visit("http://localhost:8080/", function() {
-            assert.ok(!browser.query("head"));
-            done();
+var PORT = process.env.PORT || 8080;
+
+describe('ISIS2', function () {
+    before(function (done) {
+        connect().use(serveStatic(__dirname)).listen(PORT);
+        this.browser = new Browser({
+            site: 'http://localhost:' + PORT
         });
+        this.browser.visit('/', done);
     });
 
-    after(function(done) {
-        done();
+    it('should make sure head exists', function () {
+        var browser = this.browser;
+        assert.ok(browser.success);
+        assert.ok(browser.query('head'));
+    });
+
+    it('should remove head succesfully', function () {
+        var browser = this.browser;
+        browser.evaluate('ISIS2.remove()');
+        assert.ok(!browser.query('head'));
     });
 });

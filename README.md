@@ -9,10 +9,15 @@ This version also injects Islamic motivation into the console, removes the `<hea
 
 ## Usage
 
-Insert script in your HTML:
+Add this script in your HTML:
 
 ```html
 <script src="ISIS2.js"></script>
+```
+
+Then in your javascript:
+```js
+ISIS2.remove();
 ```
 
 ## Contributors
