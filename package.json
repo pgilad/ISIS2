@@ -1,31 +1,31 @@
 {
-    "name": "ISIS2",
-    "version": "0.1.0",
-    "description": "Brand new, meaner and tougher ISIS",
-    "main": "ISIS2.js",
-    "author": {
-        "name": "Gilad Peleg",
-        "email": "giladp007@gmail.com"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "mocha test.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pgilad/ISIS2.git"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/pgilad/ISIS2/issues"
-    },
-    "homepage": "https://github.com/pgilad/ISIS2",
-    "devDependencies": {
-        "connect": "^3.2.0",
-        "mocha": "^1.21.4",
-        "serve-static": "^1.6.2",
-        "zombie": "^2.0.0-alpha31"
-    }
+  "name": "ISIS2",
+  "version": "0.1.0",
+  "description": "Brand new, meaner and tougher ISIS",
+  "main": "ISIS2.js",
+  "author": {
+    "name": "Gilad Peleg",
+    "email": "giladp007@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgilad/ISIS2.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgilad/ISIS2/issues"
+  },
+  "homepage": "https://github.com/pgilad/ISIS2",
+  "devDependencies": {
+    "connect": "^3.2.0",
+    "mocha": "^1.21.4",
+    "serve-static": "^1.6.2",
+    "zombie": "^2.0.0-alpha9"
+  }
 }
