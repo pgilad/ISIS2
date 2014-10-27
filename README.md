@@ -25,3 +25,7 @@ ISIS2.remove();
 - [DanielGorlo (Original creator)](https://github.com/DanielGorlo)
 - [zivc](https://github.com/zivc)
 - [Radai Rosenblatt](https://github.com/radai-rosenblatt)
+
+## License
+
+MIT @[Gilad Peleg](http://giladpeleg.com)
