@@ -20,7 +20,7 @@
     "test": "mocha test.js"
   },
   "devDependencies": {
-    "connect": "^3.2.0",
+    "connect": "^3.3.3",
     "mocha": "*",
     "serve-static": "^1.7.0",
     "zombie": "^2.0.8"
